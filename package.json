@@ -1,0 +1,24 @@
+{
+  "name": "stairs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Oleh Pratsko",
+  "license": "ISC",
+  "homepage": "https://github.com/webisland/stairs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webisland/stairs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webisland/stairs/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "^1.7.5",
+    "fontello-cli": "^0.4.0",
+    "uity-css": "https://github.com/webisland/uity-css.git"
+  }
+}
