@@ -14,7 +14,7 @@
     "url": "https://github.com/webisland/stairs/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "jekyll serve --livereload"
   },
   "dependencies": {
     "angular": "^1.7.5",
