@@ -5,13 +5,13 @@
   "main": "index.js",
   "author": "Oleh Pratsko",
   "license": "ISC",
-  "homepage": "https://github.com/webisland/stairs#readme",
+  "homepage": "https://github.com/webisland/jekyll-starter-kit#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webisland/stairs.git"
+    "url": "git+https://github.com/webisland/jekyll-starter-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/webisland/stairs/issues"
+    "url": "https://github.com/webisland/jekyll-starter-kit/issues"
   },
   "scripts": {
     "serve": "jekyll serve --livereload"
@@ -19,6 +19,6 @@
   "dependencies": {
     "angular": "^1.7.5",
     "fontello-cli": "^0.4.0",
-    "uity-css": "https://github.com/webisland/uity-css.git"
+    "uity-css": "github:webisland/uity-css"
   }
 }

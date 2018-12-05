@@ -6,12 +6,12 @@
     <title>{{ page.title | default: site.title }}</title>
     {% css 'main' %}
   </head>
-  <body>
+  <body class="page">
     {% include header.html %}
     <main>
       {{ content }}
     </main>
-
+    {% include footer.html %}
     {% js 'vendor' %}
     {% js 'index' %}
   </body>
