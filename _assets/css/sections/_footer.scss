@@ -1,0 +1,22 @@
+.footer {
+  &__logo {
+    background-image: url('/images/logo_black.png');
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    font-size: 21px;
+    line-height: 1.4;
+    padding-left: 35px;
+  }
+
+  &__copy {
+    color: $grey-400;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  &__nav {
+    font-size: 13px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}
