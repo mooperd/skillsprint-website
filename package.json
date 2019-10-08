@@ -14,7 +14,10 @@
     "url": "https://github.com/webisland/jekyll-starter-kit/issues"
   },
   "scripts": {
-    "serve": "jekyll serve --livereload"
+    "serve": "jekyll serve --livereload",
+    "build:prod": "JEKYLL_ENV=production jekyll build",
+    "fontello:open": "fontello-cli open --config fontello_config.json",
+    "fontello:install": "fontello-cli install --config fontello_config.json --css _assets/css/icons --font font && mv _assets/css/icons/icons.css _assets/css/icons/icons.scss"
   },
   "dependencies": {
     "angular": "^1.7.5",
