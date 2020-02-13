@@ -2,6 +2,12 @@
   text-transform: none;
 
   &_blue {
-    background-color: #3742fa;
+    background-color: $blue-600;
+  }
+
+  &_light {
+    background-color: $white;
+    border: 1px solid $blue-600;
+    color: $blue-600;
   }
 }
