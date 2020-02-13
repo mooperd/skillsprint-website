@@ -1,0 +1,19 @@
+.utility {
+  color: $grey-500;
+
+  &__item {
+    display: inline-block;
+    margin-right: 8px;
+
+    &:first-child {
+      &::before {
+        display: none;
+      }
+    }
+
+    &::before {
+      content: '|';
+      margin-right: 8px;
+    }
+  }
+}

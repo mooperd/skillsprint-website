@@ -1,11 +1,8 @@
 .footer {
   &__logo {
-    background-image: url('/images/logo_black.png');
-    background-size: 26px 26px;
-    background-repeat: no-repeat;
     font-size: 21px;
+    font-weight: 600;
     line-height: 1.4;
-    padding-left: 35px;
   }
 
   &__copy {
@@ -15,8 +12,18 @@
   }
 
   &__nav {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 10px;
-    text-transform: uppercase;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__meta {
+    border-top: 1px solid $grey-100;
+    margin-top: 60px;
+    padding-bottom: 25px;
+    padding-top: 25px;
   }
 }

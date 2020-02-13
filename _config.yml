@@ -1,8 +1,6 @@
-title: JKS by Web Island
-email: olehpratsko@webisland.agency
+title: Skill Sprints
 description: >- # this means to ignore newlines until "baseurl:"
-  JKS is a pre-configured project template developed and supported by Web Island
-  Agency.
+  Skill Sprints: Disrupting IT consultancy and training
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
