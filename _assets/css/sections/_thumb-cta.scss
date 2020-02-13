@@ -1,0 +1,41 @@
+.thumb-cta {
+  &__placeholder {
+    background-color: $black;
+    max-width: 400px;
+    padding-top: 75%;
+    width: 100%;
+
+    &_rev {
+      margin-left: auto;
+    }
+  }
+
+  &__details {
+    padding: 0 20px;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-top: 20px;
+  }
+
+  &__actions {
+    margin-top: 25px;
+  }
+}
+
+@include mobile {
+  .thumb-cta {
+    &__details {
+      margin-top: 40px;
+      padding: 0;
+    }
+
+    &__placeholder {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

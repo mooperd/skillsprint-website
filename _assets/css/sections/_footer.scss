@@ -1,4 +1,7 @@
 .footer {
+  border-top: 1px solid $grey-100;
+  padding-top: 40px;
+
   &__logo {
     font-size: 21px;
     font-weight: 600;
@@ -22,7 +25,7 @@
 
   &__meta {
     border-top: 1px solid $grey-100;
-    margin-top: 60px;
+    margin-top: 40px;
     padding-bottom: 25px;
     padding-top: 25px;
   }
