@@ -1,0 +1,10 @@
+.placeholder {
+  background-color: $black;
+  max-width: 400px;
+  padding-top: 75%;
+  width: 100%;
+
+  &_rev {
+    margin-left: auto;
+  }
+}
