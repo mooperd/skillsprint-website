@@ -11,27 +11,42 @@
   }
 
   &__details {
-    padding: 0 20px;
+    padding: 0 0vw;
+    margin-top: 0 0vw;
+  }
+
+ &__title {
+    font-size: 4vw;
+    font-weight: 800;
+    line-height: 1.8;
+    margin-top: 2vw;
   }
 
   &__text {
-    font-size: 18px;
+    font-size: 2.5vw;
     font-weight: 300;
     line-height: 1.8;
-    margin-top: 20px;
+    margin-top: 3px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-evenly;
+
   }
 
   &__actions {
+    font-size: 2.5vw;
     margin-top: 25px;
   }
 }
 
 @include mobile {
   .thumb-cta {
-    &__details {
-      margin-top: 40px;
-      padding: 0;
-    }
+  &__details {
+    padding: 0 0vw;
+    margin-top: 0 0vw;
+  }
 
     &__placeholder {
       margin-left: auto;
