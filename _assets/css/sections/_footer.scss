@@ -9,12 +9,21 @@
   }
 
   &__copy {
-    font-size: 2rem;
     font-weight: 200;
     line-height: 1.4;
     color: $grey-400;
     display: inline-block;
     margin-top: 10px;
+    font-size: 1rem;
+    @media only screen and (min-width: $mobile) {
+      font-size: 1.1rem;
+    }
+    @media only screen and (min-width: $tablet) {
+      font-size: 1.2rem;
+    }
+    @media only screen and (min-width: $desktop) {
+      font-size: 1.4rem;
+    }
   }
 
   &__nav {
