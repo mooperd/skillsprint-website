@@ -1,14 +1,17 @@
 .footer {
   border-top: 1px solid $grey-100;
-  padding-top: 40px;
+  padding-top: 5vw;
 
   &__logo {
-    font-size: 21px;
+    font-size: 2vw;
     font-weight: 600;
     line-height: 1.4;
   }
 
   &__copy {
+    font-size: 2vw;
+    font-weight: 200;
+    line-height: 1.4;
     color: $grey-400;
     display: inline-block;
     margin-top: 10px;

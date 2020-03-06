@@ -2,10 +2,10 @@ $page-font-size: 14px;
 $page-color: $black;
 $page-font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
 
-$header-content-height: 70px;
+$header-content-height: 5vw;
 
-$section-content-max-width: 1180px;
-$section-content-small-max-width: 1000px;
+$section-content-max-width: 90vw;
+$section-content-small-max-width: 75vw;
 
 $section-title-line-height: 1.2;
 
@@ -17,7 +17,7 @@ $gutters: [40];
 
 $top-margins: [40];
 
-$padding-vertical: 10vw;
+$padding-vertical: 5vw;
 
-$button-md-padding: 2vw 4vw;
-$button-md-font-size: 2vw;
+$button-md-padding: 0.75vw 3vw;
+$button-md-font-size: 1.5vw;
